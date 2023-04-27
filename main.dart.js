@@ -22338,14 +22338,14 @@ ajw:function ajw(a){this.a=a},
 ajv:function ajv(a){this.a=a},
 p0:function p0(a){this.a=a},
 TV:function TV(a,b,c,d,e){var _=this
-_.e=_.d=128
-_.f=0
-_.w=""
-_.x=a
-_.y=null
-_.z=b
-_.Q=c
-_.as=d
+_.f=_.e=128
+_.r=0
+_.x=""
+_.y=a
+_.z=null
+_.Q=b
+_.as=c
+_.at=d
 _.a=null
 _.b=e
 _.c=null},
@@ -80311,10 +80311,10 @@ $S:0}
 A.p0.prototype={
 an(){return new A.TV($.tQ(),A.ru("128"),A.ru("160"),A.ru(""),B.l)}}
 A.TV.prototype={
-aB(){this.y=A.amc(this.x.a.a)
+aB(){this.z=A.amc(this.y.a.a)
 this.aY()},
 P(a){var s=this,r=null,q="Ingresa un valor",p=t.D
-return A.amS(A.alw(r,new A.ci(B.x,r,r,A.c0("ConverterImage",r,r,r,r,r,r),r)),A.arO(A.mS(A.a([A.bo(r,20,r),A.DV(A.c0("",r,r,r,r,r,r),r,r),A.an_(new A.ajN(s),s.iq(s.d,s.e),t.z),A.cw(r,new A.ci(B.x,r,r,A.nV(A.a([A.c0("Width (px) :",r,r,r,s.eV(1),r,r),A.bo(r,r,50),new A.bB(new A.at(7,10,7,10),A.cw(r,A.bo(A.z0(!0,B.aX,!1,r,A.U5(),s.z,r,r,r,2,A.wd(r,new A.eC(4,B.bg,B.ce),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,q,r,r,r,r,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),!0,r,!0,r,!1,r,r,r,B.dS,3,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,B.co,r,r,r,r,r,r,r,B.aJ,r,B.cH,r,r,r),r,200),r,r,r,r,r,r),r)],p),B.au,B.bo,B.av),r),r,r,r,r,r,r),A.cw(r,new A.ci(B.x,r,r,A.nV(A.a([A.c0("Height (px) :",r,r,r,s.eV(1),r,r),A.bo(r,r,50),new A.bB(new A.at(7,10,7,10),A.cw(r,A.bo(A.z0(!0,B.aX,!1,r,A.U5(),s.Q,r,r,r,2,A.wd(r,new A.eC(4,B.bg,B.ce),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,q,r,r,r,r,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),!0,r,!0,r,!1,r,r,r,B.dS,3,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,B.co,r,r,r,r,r,r,r,B.aJ,r,B.cH,r,r,r),r,200),r,r,r,r,r,r),r)],p),B.au,B.bo,B.av),r),r,r,r,r,r,r),A.cw(r,new A.ci(B.x,r,r,s.Ce(),r),r,r,r,r,r,300),A.bo(r,10,r),A.cw(r,new A.ci(B.x,r,r,s.Dw(),r),r,r,r,r,r,300),A.bo(r,10,r),A.cw(r,new A.ci(B.x,r,r,s.Cf(),r),r,r,r,r,r,300),A.bo(r,10,r),A.c0("Codigo para Arduino",r,r,r,s.eV(1),r,r),A.bo(r,10,r),A.cw(r,new A.ci(B.x,r,r,s.Cc(),r),r,r,r,r,r,800),A.bo(r,10,r)],p),B.au,B.bo,B.av)))},
+return A.amS(A.alw(r,new A.ci(B.x,r,r,A.c0("ConverterImage",r,r,r,r,r,r),r)),A.arO(A.mS(A.a([A.bo(r,20,r),A.DV(A.c0("",r,r,r,r,r,r),r,r),A.an_(new A.ajN(s),s.iq(s.e,s.f),t.z),A.cw(r,new A.ci(B.x,r,r,A.nV(A.a([A.c0("Width (px) :",r,r,r,s.eV(1),r,r),A.bo(r,r,50),new A.bB(new A.at(7,10,7,10),A.cw(r,A.bo(A.z0(!0,B.aX,!1,r,A.U5(),s.Q,r,r,r,2,A.wd(r,new A.eC(4,B.bg,B.ce),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,q,r,r,r,r,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),!0,r,!0,r,!1,r,r,r,B.dS,3,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,B.co,r,r,r,r,r,r,r,B.aJ,r,B.cH,r,r,r),r,200),r,r,r,r,r,r),r)],p),B.au,B.bo,B.av),r),r,r,r,r,r,r),A.cw(r,new A.ci(B.x,r,r,A.nV(A.a([A.c0("Height (px) :",r,r,r,s.eV(1),r,r),A.bo(r,r,50),new A.bB(new A.at(7,10,7,10),A.cw(r,A.bo(A.z0(!0,B.aX,!1,r,A.U5(),s.as,r,r,r,2,A.wd(r,new A.eC(4,B.bg,B.ce),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,q,r,r,r,r,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),!0,r,!0,r,!1,r,r,r,B.dS,3,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,B.co,r,r,r,r,r,r,r,B.aJ,r,B.cH,r,r,r),r,200),r,r,r,r,r,r),r)],p),B.au,B.bo,B.av),r),r,r,r,r,r,r),A.cw(r,new A.ci(B.x,r,r,s.Ce(),r),r,r,r,r,r,300),A.bo(r,10,r),A.cw(r,new A.ci(B.x,r,r,s.Dw(),r),r,r,r,r,r,300),A.bo(r,10,r),A.cw(r,new A.ci(B.x,r,r,s.Cf(),r),r,r,r,r,r,300),A.bo(r,10,r),A.c0("Codigo para Arduino",r,r,r,s.eV(1),r,r),A.bo(r,10,r),A.cw(r,new A.ci(B.x,r,r,s.Cc(),r),r,r,r,r,r,800),A.bo(r,10,r)],p),B.au,B.bo,B.av)))},
 iq(a,b){return this.adj(a,b)},
 adj(a,b){var $async$iq=A.Z(function(c,d){switch(c){case 2:n=q
 s=n.pop()
@@ -80324,17 +80324,17 @@ s=p}while(true)switch(s){case 0:s=3
 return A.kx($.tQ().b.xy(),$async$iq,r)
 case 3:h=d
 g=A.au8(h)
-f=m.f
+f=m.r
 if(f>0){g.toString
 l=A.tN(g,f*90)}else l=g
 l.toString
-f=B.c.q(m.d)
-k=A.au3(l,B.c.q(m.e),f)
+f=B.c.q(m.e)
+k=A.au3(l,B.c.q(m.f),f)
 m.aal(l)
 f=A.b2(new Uint8Array(A.eI(A.arg(6).Ob(k))).buffer,0,null)
-j=m.d
-i=A.amb(f,m.e,j)
-m.y=i
+j=m.e
+i=A.amb(f,m.f,j)
+m.z=i
 s=4
 q=[1]
 return A.kx(A.asI(i),$async$iq,r)
@@ -80342,45 +80342,48 @@ case 4:case 1:return A.kx(null,0,r)
 case 2:return A.kx(o,1,r)}})
 var s=0,r=A.ao2($async$iq,t.z),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f
 return A.ao8(r)},
-Cc(){return A.as7(B.n2,10,"error",new A.ajI(this),B.nW,this.as,!0)},
+Cc(){return A.as7(B.n2,10,"error",new A.ajI(this),B.nW,this.at,!0)},
 Ce(){var s=this,r=null
 s.ag(new A.ajL())
-s.d=A.jc(s.z.a.a)
 s.e=A.jc(s.Q.a.a)
+s.f=A.jc(s.as.a.a)
 return A.kZ(new A.bB(new A.at(42,0,42,0),A.c0("Redimencionar ",r,r,r,s.eV(1),r,r),r),new A.ajM(s))},
 eV(a){var s=null
 if(a===1)return A.dI(s,s,s,s,s,s,s,s,s,s,s,18,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)
 else return A.dI(s,s,s,s,s,s,s,s,s,s,s,70,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)},
 Dw(){var s=null
 return A.kZ(new A.bB(new A.at(85,0,85,0),A.c0("Girar",s,s,s,this.eV(1),s,s),s),new A.ajP(this))},
-aal(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this
-for(s=a.b,r=a.a,q=a.x,p="",o=0,n=0;n<s;++n)for(m=n===0,l=n*r,k=0;k<r;++k){++o
-j=q[l+k]
-i=(j&248)<<8|(j>>>8&252)<<3|j>>>16>>>3&31
-h=B.b.dX(i,16)
-if(m&&k===10)B.b.dX(i,16)
-p+="0x"+(h==="0"?"0000":h)+" , "}s=g.d*g.e
+aal(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this
+for(s=a.b,r=a.a,q=a.x,p="",o=0,n=0,m=0;m<s;++m)for(l=m===0,k=m*r,j=0;j<r;++j){++o
+i=q[k+j]
+h=(i&248)<<8|(i>>>8&252)<<3|i>>>16>>>3&31
+g=B.b.dX(h,16)
+if(l&&j===10)B.b.dX(h,16)
+if(g==="0")g="0000";++n
+p+="0x"+g+" , "
+if(n===12){p+="\n"
+n=0}}s=f.e*f.f
 B.c.q(s)
-p="const unsigned short image["+A.h(s)+"] PROGMEM = {"+p+"};"
-g.w=p
-g.as.shT(0,p)},
+p="const unsigned short image["+A.h(s)+"] PROGMEM = { \n"+p+" \n};"
+f.x=p
+f.at.shT(0,p)},
 Cf(){var s=null
 return A.kZ(new A.bB(new A.at(29,0,29,0),A.c0("Descargar Archivo",s,s,s,this.eV(1),s,s),s),new A.ajJ(this))}}
 A.ajN.prototype={
-$2(a,b){var s=this.a.y
+$2(a,b){var s=this.a.z
 s.toString
 return A.bo(s,200,200)},
 $S:154}
 A.ajI.prototype={
-$0(){return A.c9([A.pq(new A.kQ(this.a.w))],t.uz)},
+$0(){return A.c9([A.pq(new A.kQ(this.a.x))],t.uz)},
 $S:0}
 A.ajL.prototype={
 $0(){},
 $S:0}
 A.ajM.prototype={
 $0(){var s=this.a
-s.d=A.jc(s.z.a.a)
 s.e=A.jc(s.Q.a.a)
+s.f=A.jc(s.as.a.a)
 s.ag(new A.ajK())},
 $S:0}
 A.ajK.prototype={
@@ -80392,10 +80395,10 @@ s.ag(new A.ajO(s))},
 $S:0}
 A.ajO.prototype={
 $0(){var s=this.a
-if(++s.f===5)s.f=1},
+if(++s.r===5)s.r=1},
 $S:0}
 A.ajJ.prototype={
-$0(){var s=this.a,r=s.w,q=s.x.b.b
+$0(){var s=this.a,r=s.x,q=s.y.b.b
 q=B.e.a1(q,0,B.e.hF(q,"."))
 A.TZ(A.as_(new A.dQ(r),t.S),q+".h")},
 $S:0}

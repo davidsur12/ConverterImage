@@ -80359,9 +80359,11 @@ j=B.b.eb((k&248)<<8|(k>>>8&252)<<3|k>>>16>>>3&31,16)
 if(j==="0")j="0000";++o
 p+="0x"+j+" , "
 if(o===12){p+="\n"
-o=0}}s=i.e*i.f
-B.c.q(s)
-p="const unsigned short image["+A.h(s)+"] PROGMEM = {"+p+"};"
+o=0}}s=i.e
+r=i.f
+q=s*r
+B.c.q(q)
+p="//width = "+A.h(s)+" \n //height = "+A.h(r)+" \n  const unsigned short image["+A.h(q)+"] PROGMEM = { \n"+p+"};"
 i.x=p
 i.at.shT(0,p)},
 Cf(){var s=null
